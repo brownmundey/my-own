@@ -6,6 +6,6 @@ services:
       - 3306:3306
     environment:
        - MYSQL_ROOT_PASSWORD=himanshu
-       - MYSQL_DATABASE=custom
+       - MYSQL_DATABASE=test
        - MYSQL_USER=admin
        - MYSQL_PASSWORD=himanshu
